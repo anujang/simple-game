@@ -3,7 +3,7 @@
 #include <memory>
 #include <stack>
 
-#include "State.hpp"
+#include "state.hpp"
 
 namespace engine {
     typedef std::unique_ptr<State> StateRef;
